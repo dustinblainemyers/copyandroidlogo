@@ -1,0 +1,66 @@
+div {margin: 0; padding: 0;  }
+div div {background: #A4CA39; position: relative;}
+
+.android{
+height:404px;width:334px;
+margin: 100px auto;
+}
+
+.head{
+  width:220px;height:100px;
+  top: 32px;
+
+  border-radius: 110px 110px 0 0;
+
+
+  -webkit-transition: all 0.1s ease-in;
+
+}
+
+.l_eye, .r_eye {
+    background:#fff;
+    width: 20px; height: 20px;
+    position: absolute; top: 42px;
+
+    border-radius: 10px;
+    
+}
+
+.l_eye {left:50px;}
+.r_eye {right: 50px;}
+
+.l_ant, .r_ant{
+    width: 6px; height:50px;
+    position: absolute; top: -34px;
+
+    border-radius: 3px;
+   
+}
+
+.l_ant {
+    left: 50px;
+    transform: rotate(-30deg);
+
+}
+
+.r_ant {
+    right: 50px;
+    transform: rotate(30deg);
+
+
+}
+
+.body {
+
+    width:220px;height: 184px;
+    top: 40px;
+    border-radius:0px 0px 25px 25px;
+}
+
+.l_arm {
+
+    height: 150px;
+    left: -58px;
+    position: absolute;
+    border-radius: 25px;
+}
